@@ -1,0 +1,17 @@
+<div class="container">
+   <div class="slogan">
+       <h3>Seja BemVindo ao Sistema</h3>
+   </div>
+    <div class="formulario">
+         <form [formGroup]="oForm" (ngSubmit)="onSubmit()">
+          <div class="group">
+               <input formControlName="senha"  type="password" placeholder="Inseri a Senha">
+          </div>
+
+          <div class="group">
+              <button  type="submit">Entrar</button>
+          </div>
+        </form>
+
+    </div>
+</div>

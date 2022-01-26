@@ -1,0 +1,90 @@
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: none;
+    font-family: 'Trebuchet ms';
+ }
+ .template-container{
+     display:grid;
+     grid-template-columns:750px  160px auto;
+ }
+ .container-esquerda{
+        height:100%;
+        margin-left:10px;
+       /* background-color: orange;   */
+ }
+ .container-directo{
+     width: 90%;
+     height:auto;
+     background-color: #50ac7c;
+ }
+
+ .container-directo{
+    padding:20px;
+ }
+ .container-directo  > .container-historico {
+   display:grid;
+   grid-template-columns:auto;
+ }
+ .container-historico  > .container-logo  > h6{
+      color: white;
+      font-weight: bold;
+      font-size:26px;
+ }
+ .container-historico-lista{
+    margin-top:60px;
+ }
+ .container-box-historico{
+     width:400px;
+     height:60px;
+     background-color:white;
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ }
+ .container-box-item{
+   margin-bottom:20px;
+ }
+ .container-box-item > div{
+    margin-bottom: 10px;
+ }
+ .container-box-item > div > span{
+      color:white;
+ }
+ .container-esquerda{
+     margin-top:90px;
+ }
+
+ .container-stepper  {
+    width:100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+ }
+ .container-stepper > .container-stepper-caixa{
+     width:200px;
+     height:120px;
+     border:1px solid rgb(245, 234, 234);
+     text-align: center;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+ .container-stepper-caixa{
+    margin-right:10px;
+ }
+
+ .activo-stepped{
+      background-color:#50ac7c ;
+      color:white;
+ }
+
+ .container-line{
+    width:120px;
+    height:4px;
+    background-color:#e8eeeb
+ }
+
+ .formulario{
+     width:112.5%;
+     height:400px;
+     border:2px solid #e2f3ea;
+ }

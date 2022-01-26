@@ -1,0 +1,32 @@
+.container{
+    width: 700px;
+    height: auto;
+    margin:0 auto;
+    margin-top:180px;
+}
+
+.group > input[type="password"]{
+   width: 600px;
+   height:40px;
+   border:1px solid #eee;
+   padding:5px;
+}
+
+.group  > button{
+  width: 600px;
+  height:60px;
+  background-color:#50ac7c;
+  margin-top:10px;
+  color:white;
+  font-family: 'Trebuchet ms';
+  border:none;
+  margin-top:30px;
+}
+.slogan{
+
+    font-family: 'Trebuchet ms';
+    font-size:32px;
+    box-sizing: border-box;
+    padding-left:10%;
+
+}
